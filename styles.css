@@ -17,7 +17,7 @@ header {
 }
 .red{
     background-color: red;
-    
+
 }
 header > h1{
     color: #25272E;
@@ -81,6 +81,15 @@ header > h1{
     width: auto;
     transition: all 0.4s ease;
 }
+@media screen and (max-width: 600px) {
+    .choice {
+
+      height: 100px;
+      width: 100px;
+      display: inline;
+      resize: both;
+    }
+  }
 .choice:hover{
     cursor: pointer;
     background: black;
